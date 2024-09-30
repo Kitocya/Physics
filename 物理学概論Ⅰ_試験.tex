@@ -1,0 +1,52 @@
+\documentclass[a4paper,11pt]{ltjsarticle}
+\usepackage{nomal_preamble}
+\usepackage{wrapfig}
+
+\title{物理学概論Ⅰ\ 試験}
+\author{ほうじ茶}
+\date{}
+
+\begin{document}
+
+\pagestyle{fancy}
+\lhead{\ 力学}
+\rhead{}
+\cfoot{\thepage}
+
+\begin{enumerate}
+    \item 水平な地面に立つ高さ$h=125$[m]のビルの屋上から，
+    質量$m$のボールを，速さ$v_0=3.0$[m/s]で水平かつ真東に打ち出した．
+    このボールの運動を予測したい．下図のように地面に原点をとった2次元デカルト座標系を設定し，
+    打ち出してからの時間を$t$[s]として，ボールの位置ベクトルをこの座標系で
+    $\bm{r}(t)=(x(t),y(t))$[m]と書くことにする．以下の問に答えなさい．
+    ただし，ボールに対する空気の影響は無視できる．
+    問(1)と問(2)の答えには，なるべく数値を使わずに文字を使いなさい．
+    問(3)と問(4)の数値の答えには，重力加速度の大きさ$g=10\ [\mathrm{m/s^2}]$を使いなさい．
+
+    \begin{center}
+    \begin{tikzpicture}
+        \fill[lightgray] (0,0) rectangle (-1,3);
+        \draw[->,>=stealth,very thick] (-2,0)--(3,0)node[above]{$x$}node[right]{東}; %x軸
+        \draw[->,>=stealth,very thick] (0,-0.5)--(0,4)node[right]{$y$}; %y軸
+        \draw (0,0)node[below left]{O}; %原点
+        \draw[semithick] (0,0) rectangle (-1,3)node[left]{$h=125$[m]};
+        \draw (1.5,0)node[below]{地面};
+        \fill (0,3) circle (0.08);
+        \draw[->,semithick] (0,3)--(0.8,3)node[above right]{$v_0=3.0$[m/s]};
+        \draw (1,2.7) circle (0.08);
+        \draw (1.5,2.4) circle (0.08)node[right]{$(x(t),y(t))$};
+        \draw (2,1.7) circle (0.08);
+    \end{tikzpicture}
+    \end{center}
+    
+    \begin{enumerate}[label=(\arabic*)]
+        \item 問題文で用意された座標系と函数を使って，打ち出されてから地面に着くまでの間のボールの\textbf{運動方程式}と
+        ボールの\textbf{初期条件}を書きなさい．
+
+        \item 問1の方程式と条件を解いて，空中に飛んでいるボールの\textbf{運動}，つまり，函数$x(t)$と$y(t)$を答えなさい．
+    \end{enumerate}
+\end{enumerate}
+
+
+
+\end{document}

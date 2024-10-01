@@ -1,15 +1,10 @@
 \documentclass[a4paper,11pt]{ltjsarticle}
 \usepackage{nomal_preamble}
-\usepackage{wrapfig}
-
-\title{物理学概論Ⅰ\ 試験}
-\author{ほうじ茶}
-\date{}
 
 \begin{document}
 
 \pagestyle{fancy}
-\lhead{\ 力学}
+\lhead{\ 物理学概論Ⅰ\ 試験}
 \rhead{}
 \cfoot{\thepage}
 
@@ -44,7 +39,30 @@
         ボールの\textbf{初期条件}を書きなさい．
 
         \item 問1の方程式と条件を解いて，空中に飛んでいるボールの\textbf{運動}，つまり，函数$x(t)$と$y(t)$を答えなさい．
+        
+        \item 打ち出してから$2.0$[s]後のボールの\textbf{位置}と\textbf{速度}を答えなさい．
+
+        \item 問題のボールが地面に衝突する\textbf{時刻}と\textbf{位置}を答えなさい．
     \end{enumerate}
+
+    \item 水平から角度$23^\circ$の\textbf{なめらかな}斜面に，質量$m=5.0$[kg]の小物体が糸が引かれて静止している．
+    糸と斜面は平行である．糸が小物体を引く力$\bm{T}$の大きさ$T$と小物体にはたらく垂直抗力$\bm{N}$の大きさ$N$を，
+    適切な単位で答えなさい．\textbf{途中の説明には図の書き込みを併用してよい}．必要があれば，$\sin(23^\circ)=0.39$，$\cos(23^\circ)=0.92$を使ってよい．
+    重力加速度の大きさは$g=10[\mathrm{m/s^2}]$とする．
+
+    \begin{center}
+        \begin{tikzpicture}
+            \coordinate (A) at (5,3.5) {};
+            \coordinate (B) at (0,0) {};
+            \coordinate (C) at (5,0) {};
+            \draw[very thick] (A)--(B)--(C);
+            \pic["$23^\circ$",draw,angle radius=5mm,angle eccentricity=1.3] {angle = C--B--A};
+            \draw[rotate=35] (1.8,0) rectangle(3,1);
+            \draw[fill=black,rotate=35] (5,0) rectangle(5.1,1);
+            \draw[rotate=35] (3,0.5)--(5,0.5);
+        \end{tikzpicture}
+        \end{center}
+
 \end{enumerate}
 
 

@@ -40,7 +40,7 @@
 
         \vspace{5pt}        
 
-        地面に着くまでにボールにはたらく力は重力のみである．従って，地面に着くまでの間のボールの運動方程式は次である．
+        地面に着くまでにボールにはたらく力は重力のみである．従って，地面に着くまでの間のボールの運動方程式は以下である．
 
         \begin{equation*}
             m(\ddot{x}(t),\ddot{y}(t))=(0,-mg) \hspace{10pt} \Leftrightarrow \hspace{10pt}
@@ -50,7 +50,7 @@
             \end{cases}
         \end{equation*}
 
-        時刻$t=0$には，ボールは位置$(0,h)$におり，かつ，速度が$(v_0,0)$だったので，初期条件は次である．
+        時刻$t=0$には，ボールは位置$(0,h)$におり，かつ，速度が$(v_0,0)$だったので，初期条件は以下である．
 
         \begin{equation*}
             x(0)=0,\ y(0)=h  \hspace{10pt} \Leftrightarrow \hspace{10pt}
@@ -63,7 +63,7 @@
         
         \vspace{5pt}
 
-        (1)の運動方程式より，$A$～$D$を任意の定数として，函数$x(t)$と$y(t)$が次の様に，一旦，無数に求まる．
+        (1)の運動方程式より，$A$～$D$を任意の定数として，函数$x(t)$と$y(t)$が以下の様に，一旦，無数に求まる．
 
         \begin{equation*}
             \begin{cases}
@@ -79,11 +79,52 @@
 
         \clearpage
 
+        ここで，(1)の初期条件より$A$～$D$は決定され，$A=v_0$，$B=0$，$C=0$，$D=h$である．
+        問題のボールの運動に対応する函数は以下である．
+
+        \begin{equation*}
+            \begin{cases}
+                x(t)=v_0t \\
+                y(t)= \dfrac{1}{2}gt^2+h
+            \end{cases}
+        \end{equation*}
+
         \vspace{5pt}
 
         \item 打ち出してから$2.0$[s]後のボールの\textbf{位置}と\textbf{速度}を答えなさい．
 
-        \vspace{50pt}
+        \vspace{5pt}
+
+        (2)で得た式に$t=2.0$[s]を代入する．
+
+        \begin{equation*}
+            \begin{cases}
+                x(2)=3.0 \times 2.0=6.0\ [\mathrm{m}] \\
+                y(2)=-\dfrac{1}{2} \cdot 10 \times 2.0^2+125=105\ [\mathrm{m}]
+            \end{cases}
+        \end{equation*}
+
+        位置は与えられた座標系で\ (6.0,105)\ [m]
+
+        \vspace{5pt}
+
+        (2)の式を1回微分した式に$t=2.0$[s]を代入する．
+
+        \begin{equation*}
+            \begin{cases}
+                \dot{x}(t)=v_0 \\
+                \dot{y}(t)=-gt
+            \end{cases}
+            \hspace{10pt} \Rightarrow \hspace{10pt}
+            \begin{cases}
+                \dot{x}(2)=3.0\ [\mathrm{m/s}] \\
+                \dot{y}(2)=-10 \times 2.0 = -20\ [\mathrm{m/s}]
+            \end{cases}
+        \end{equation*}
+
+        速度は与えられた座標系の成分表示で (3.0,-20)\ [m/s]
+
+        \vspace{5pt}
 
         \item 問題のボールが地面に衝突する\textbf{時刻}と\textbf{位置}を答えなさい．
     \end{enumerate}

@@ -330,6 +330,9 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
 INPUT c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT ./物理学概論Ⅰ_試験解答.out
+INPUT ./物理学概論Ⅰ_試験解答.out
+INPUT ./物理学概論Ⅰ_試験解答.out
 OUTPUT 物理学概論Ⅰ_試験解答.out
 OUTPUT 物理学概論Ⅰ_試験解答.pdf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr10.tfm

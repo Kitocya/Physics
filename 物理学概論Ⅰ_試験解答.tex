@@ -43,7 +43,7 @@
         地面に着くまでにボールにはたらく力は重力のみである．従って，地面に着くまでの間のボールの運動方程式は以下である．
 
         \begin{equation*}
-            m(\ddot{x}(t),\ddot{y}(t))=(0,-mg) \hspace{10pt} \Leftrightarrow \hspace{10pt}
+            m(\ddot{x}(t),\ddot{y}(t))=(0,-mg) \quad \Leftrightarrow \quad
             \begin{cases}
                 m \ddot{x}(t)=0 \\
                 m \ddot{y}(t)=-mg
@@ -53,7 +53,7 @@
         時刻$t=0$には，ボールは位置$(0,h)$におり，かつ，速度が$(v_0,0)$だったので，初期条件は以下である．
 
         \begin{equation*}
-            x(0)=0,\ y(0)=h  \hspace{10pt} \Leftrightarrow \hspace{10pt}
+            x(0)=0,\ y(0)=h  \quad \Leftrightarrow \quad
             \dot{x}(0)=v_0,\ \dot{y}(0)=0
         \end{equation*}
 
@@ -70,7 +70,7 @@
                 m \ddot{x}(t)=0 \\
                 m \ddot{y}(t)=-g
             \end{cases}
-            \hspace{10pt} \Leftrightarrow \hspace{10pt}
+            \quad \Leftrightarrow \quad
             \begin{cases}
                 x(t)=At+B \\
                 y(t)=-\dfrac{1}{2}gt^2+Ct+D
@@ -115,7 +115,7 @@
                 \dot{x}(t)=v_0 \\
                 \dot{y}(t)=-gt
             \end{cases}
-            \hspace{10pt} \Rightarrow \hspace{10pt}
+            \quad \Rightarrow \quad
             \begin{cases}
                 \dot{x}(2)=3.0\ [\mathrm{m/s}] \\
                 \dot{y}(2)=-10 \times 2.0 = -20\ [\mathrm{m/s}]
@@ -133,12 +133,12 @@
         地面は$y=0$であるから，衝突する時刻は$y(T)=0$となる$T$を正の範囲で求めたらよい．
 
         \begin{equation*}
-            y(T)=0 \hspace{10pt} \Leftrightarrow \hspace{10pt}
+            y(T)=0 \quad \Leftrightarrow \quad
             -\dfrac{1}{2}gT^2+h=0
         \end{equation*}
 
         \begin{equation*}
-            \Leftrightarrow \hspace{10pt} T=\sqrt{\dfrac{2h}{g}}
+            \Leftrightarrow \quad T=\sqrt{\dfrac{2h}{g}}
             = \sqrt{\dfrac{2 \times 125\ [\mathrm{m}]}{10\ [\mathrm{m/s^2}]}}=5.0\ [\mathrm{m}]
         \end{equation*}
 
@@ -157,6 +157,8 @@
     適切な単位で答えなさい．\textbf{途中の説明には図の書き込みを併用してよい}．必要があれば，$\sin(23^\circ)=0.39$，$\cos(23^\circ)=0.92$を使ってよい．
     重力加速度の大きさは$g=10[\mathrm{m/s^2}]$とする．
 
+    \vspace{5pt}
+
     \begin{center}
         \begin{tikzpicture}
             \coordinate (A) at (5,3.5) {};
@@ -169,6 +171,38 @@
             \draw[rotate=35] (3,0.5)--(5,0.5)node[above] at ($(3,0.5)!0.5!(5,0.5)$){糸};
         \end{tikzpicture}
         \end{center}
+
+    \vspace{5pt}
+
+    図の様に，水平面の適当な所に原点をとり，斜面に平行上向きを$x$方向，斜面に垂直上向きを$y$方向とする．
+    この座標系は慣性座標系である．小物体にはたらく力は重力$\bm{G}$と，糸が引く力$\bm{T}$と，垂直抗力$\bm{N}$である．
+    図の様に，重力$\bm{G}$は鉛直下向き，糸が引く力$\bm{T}$は斜面平行上向き，垂直抗力$\bm{N}$は斜面垂直上向きである．
+    物体は慣性座標系に対して静止しているのだから，「力のついあい」$\bm{G}+\bm{T}+\bm{N}=\bm{0}$が成り立っている．
+    設定した座標系で物体にはたらく3つの力を成分表示すると以下の様になる．
+
+    \begin{equation*}
+        \bm{G}=(-mg\sin23^{\circ},-mg\cos23^{\circ})
+        \qquad
+        \bm{T}=(T,0)
+        \qquad
+        \bm{N}=(0,N)
+    \end{equation*}
+
+    これらの成分表示を使って「力のついあい」を表すと以下の様になる．
+
+    \begin{equation*}
+        \bm{G}+\bm{T}+\bm{N}=(T-mg\sin23^{\circ},N-mg\cos23^{\circ})=(0,0)
+    \end{equation*}
+
+    これらの方程式を解いて，求める力の強さ$T$と$N$が以下の様に得られる．
+
+    \begin{equation*}
+        T=mg\sin23^{\circ}=5.0\ [\mathrm{kg}] \times 10\ [\mathrm{m/s^2}] \times 0.39 = 19.5\ [\mathrm{N}]
+    \end{equation*}
+
+    \begin{equation*}
+        N=mg\cos23^{\circ}=5.0\ [\mathrm{kg}] \times 10\ [\mathrm{m/s^2}] \times 0.92 = 46.0\ [\mathrm{N}]
+    \end{equation*}
 
 \clearpage
 

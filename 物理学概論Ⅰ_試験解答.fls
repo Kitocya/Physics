@@ -374,6 +374,7 @@ INPUT C:/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.lu
 INPUT C:/texlive/2024/texmf-var/luatexja/extra_lmroman10-bold.luc
 INPUT ./物理学概論Ⅰ_試験解答.aux
 INPUT ./物理学概論Ⅰ_試験解答.out
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb

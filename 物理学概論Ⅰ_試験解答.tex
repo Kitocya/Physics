@@ -133,13 +133,10 @@
         地面は$y=0$であるから，衝突する時刻は$y(T)=0$となる$T$を正の範囲で求めたらよい．
 
         \begin{equation*}
-            y(T)=0 \quad \Leftrightarrow \quad
-            -\dfrac{1}{2}gT^2+h=0
-        \end{equation*}
-
-        \begin{equation*}
-            \Leftrightarrow \quad T=\sqrt{\dfrac{2h}{g}}
-            = \sqrt{\dfrac{2 \times 125\ [\mathrm{m}]}{10\ [\mathrm{m/s^2}]}}=5.0\ [\mathrm{m}]
+            \begin{aligned}
+                & y(T)=0 \quad \Leftrightarrow \quad -\dfrac{1}{2}gT^2+h=0 \\[5pt]
+                \Leftrightarrow \quad & T=\sqrt{\dfrac{2h}{g}} = \sqrt{\dfrac{2 \times 125\ [\mathrm{m}]}{10\ [\mathrm{m/s^2}]}}=5.0\ [\mathrm{m}]
+            \end{aligned}
         \end{equation*}
 
         衝突する地点は，時刻$T$でのボールの位置，すなわち，与えられた座標系で$(x(T),0)$である．
@@ -197,11 +194,10 @@
     これらの方程式を解いて，求める力の強さ$T$と$N$が以下の様に得られる．
 
     \begin{equation*}
-        T=mg\sin23^{\circ}=5.0\ [\mathrm{kg}] \times 10\ [\mathrm{m/s^2}] \times 0.39 = 19.5\ [\mathrm{N}]
-    \end{equation*}
-
-    \begin{equation*}
-        N=mg\cos23^{\circ}=5.0\ [\mathrm{kg}] \times 10\ [\mathrm{m/s^2}] \times 0.92 = 46.0\ [\mathrm{N}]
+        \begin{aligned}
+            T=mg\sin23^{\circ} &= 5.0\ [\mathrm{kg}] \times 10\ [\mathrm{m/s^2}] \times 0.39 = 19.5\ [\mathrm{N}] \\
+            N=mg\cos23^{\circ} &= 5.0\ [\mathrm{kg}] \times 10\ [\mathrm{m/s^2}] \times 0.92 = 46.0\ [\mathrm{N}]
+        \end{aligned}
     \end{equation*}
 
 \clearpage
@@ -209,7 +205,37 @@
     \item 質量不明の小物体を地面から$v_0=15$[m/s]である角度に打ち出すと，最高点の地面からの高さは$H=10$[m]であった．
     物質の最高点での\textbf{速さ}$\bm{v}$を答えなさい．重力加速度の大きさは$g=10[\mathrm{m/s^2}]$とする．空気の影響は無視できる．
 
-\clearpage
+    \vspace{5pt}
+
+    ボールの質量を$m$と表し，重力による位置エネルギー$U$を基準に地面にとる．
+    投げた瞬間と最高点の瞬間のボールの運動エネルギー$K$と位置エネルギー$U$は以下である．
+
+    \begin{equation*}
+        \begin{array}{ccc}
+            \hline \\[-7pt]
+            投げた瞬間 & 運動エネルギー & K_1 = \dfrac{1}{2}mv_0^2 \\[7pt]
+                      & 位置エネルギー & U_1 = 0 \\[5pt]
+            \hline \\[-7pt]
+            最高点の瞬間 & 運動エネルギー & K_2 = \dfrac{1}{2}mv^2 \\[7pt]
+                        & 位置エネルギー & U_2 = mgH \\[5pt]
+            \hline
+        \end{array}
+    \end{equation*}
+
+    ボールには重力の他に力がはたらいていないから，力学的エネルギー$E$は保存する．
+
+    \begin{equation*}
+        \begin{aligned}
+            & E_1 = E_2 \\
+            \Leftrightarrow \quad & \dfrac{1}{2}mv_0^2 = \dfrac{1}{2}mv^2 + mgH \\
+            \Leftrightarrow \quad & v_0^2 = v^2 + 2gH \\
+            \Leftrightarrow \quad & v^2 = v_0 - 2gH \\
+                                  & \quad = 225 - 200 = 25\ [\mathrm{m^2/s^2}] \\
+            \Leftrightarrow \quad & v = 5.0\ [\mathrm{m/s}]
+        \end{aligned}
+    \end{equation*}
+
+    \vspace{5pt}
 
     \item 次の文章のカッコに適当な単語を埋めなさい．
     
@@ -217,13 +243,13 @@
 
     \begin{enumerate}[label=(\arabic*)]
         \item 電車に乗っていると，減速中に上半身を進行方向に押し付けられるように感じる．
-        この力は（　　　）と呼ばれるが，本物の力ではない．
-        実際，この現象を地面を基準に考えると，身体は等速度を続けようとする（慣性の法則）に，
+        この力は（慣性力）と呼ばれるが，本物の力ではない．
+        実際，この現象を地面を基準に考えると，身体は等速度を続けようとする慣性の法則に，
         電車の床に着いている足だけが電車と共に減速するから，上半身が前のめりになるだけなのである．
-        このような見かけの力であっても，（　　　）座標系を採用して運動を調べる場合に役に立つ．
+        このような見かけの力であっても，（非慣性）座標系を採用して運動を調べる場合に役に立つ．
 
-        \item 物体の軸の回りの回転運動を考えるときは，力よりも（　　　　　）と呼ばれるベクトルの方が便利である．
-        \item このベクトルの大きさは，力の大きさの他に，軸から力の作用点までの（　　　）にも比例する．
+        \item 物体の軸の回りの回転運動を考えるときは，力よりも（力のモーメント）と呼ばれるベクトルの方が便利である．
+        \item このベクトルの大きさは，力の大きさの他に，軸から力の作用点までの（距離）にも比例する．
     \end{enumerate}
 
     \vspace{5pt}

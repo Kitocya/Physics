@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.6.5)  7 OCT 2024 12:43
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.6.5)  7 OCT 2024 13:25
  restricted system commands enabled.
  file:line:error style messages enabled.
 **c:/Git/Physics/物理学概論Ⅰ_試験解答.tex
@@ -1266,8 +1266,6 @@ LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 
 ] [4
 
-] [5
-
 ] (./物理学概論Ⅰ_試験解答.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -1278,19 +1276,19 @@ Package rerunfilecheck Info: File `物理学概論Ⅰ_試験解答.out' has not 
 )
 
 Here is how much of LuaTeX's memory you used:
- 32818 strings out of 476447
- 125244,1977958 words of node,token memory allocated
- 1429 words of node memory still in use:
-   11 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 346 attribute, 64 glue_spec, 43 attribute_list, 2 write, 14 user_defined nodes
-   avail lists: 1:19,2:30781,3:833,4:464,5:173,6:49,7:5152,8:43,9:2118,10:25
- 53890 multiletter control sequences out of 65536+600000
+ 32821 strings out of 476447
+ 156557,1977958 words of node,token memory allocated
+ 1483 words of node memory still in use:
+   11 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 370 attribute, 64 glue_spec, 46 attribute_list, 2 write, 14 user_defined nodes
+   avail lists: 1:23,2:31560,3:833,4:464,5:172,6:49,7:5153,8:39,9:2118,10:25
+ 53894 multiletter control sequences out of 65536+600000
  60 fonts using 33597207 bytes
- 125i,11n,128p,1917b,981s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 125i,12n,128p,1917b,981s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf><c:/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2024/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on 物理学概論Ⅰ_試験解答.pdf (5 pages, 158048 bytes).
+Output written on 物理学概論Ⅰ_試験解答.pdf (4 pages, 163706 bytes).
 
-PDF statistics: 97 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 131072)
+PDF statistics: 93 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
+ 17 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 

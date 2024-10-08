@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1728289774.31742 "c:/Git/Physics/物理学概論Ⅱ.tex" "物理学概論Ⅱ.pdf" "物理学概論Ⅱ" 1728289783.31684 0
+["lualatex"] 1728361211.4256 "c:/Git/Physics/物理学概論Ⅱ.tex" "物理学概論Ⅱ.pdf" "物理学概論Ⅱ" 1728361220.55137 0
   "C:/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/haranoajigothic-medium.luc" 1717583716 1924607 c5a894c68e1496a4c9bc0954adb7c86b ""
   "C:/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/haranoajimincho-regular.luc" 1717583713 2011205 337da0c839e22cde05b254da73a6a346 ""
   "C:/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/lmmono9-regular.luc" 1717583713 81867 af3aaa8841e3ad6fa593e5830bc07644 ""
@@ -30,7 +30,7 @@
   "C:/texlive/2024/texmf-var/luatexja/ltj-cid-auto-adobe-japan1.luc" 1717583688 1643739 29dd286b8397195bab946cc8d27034b8 ""
   "C:/texlive/2024/texmf-var/luatexja/ltj-jisx0208.luc" 1717583713 93919 3545f967e0ab307c2cc8c3e8cb314d7c ""
   "C:/texlive/2024/texmf-var/luatexja/ltj-kinsoku_default.luc" 1717583689 17654 bbcb9edafee384e2db436fe71e2bf5a1 ""
-  "c:/Git/Physics/物理学概論Ⅱ.tex" 1728289772 7861 5b2e0aeb13be01ba9f74110bc1ffbc56 ""
+  "c:/Git/Physics/物理学概論Ⅱ.tex" 1728361209 7895 c887e89820e74ae0bcf69bd0f5c9b6cd ""
   "c:/texlive/2024/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf" 1717572468 4741344 b4cb653e8a646847598c1b41780451dc ""
   "c:/texlive/2024/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf" 1717572468 6420628 de3818622611c4aa9412be05bfa54ad6 ""
   "c:/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf" 1717573191 111240 1d60e9def74b1102bb4defa7cb772ee3 ""
@@ -210,6 +210,7 @@
   "c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty" 1717570846 88371 d84032c0f422c3d1e282266c01bef237 ""
   "c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty" 1717570846 4474 b811654f4bf125f11506d13d13647efb ""
   "c:/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty" 1717570846 2444 0d0c1ee65478277e8015d65b86983da2 ""
+  "c:/texlive/2024/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty" 1717570862 3901 468c107ba2ff895578a5a95fe5d4bdbe ""
   "c:/texlive/2024/texmf-dist/tex/latex/ascmac/ascmac.sty" 1717570909 590 834565f4a016952bf667fd346b7aee71 ""
   "c:/texlive/2024/texmf-dist/tex/latex/ascmac/tascmac.sty" 1717570909 11463 e16f2fec3bf4db0d4002a155e4cf4467 ""
   "c:/texlive/2024/texmf-dist/tex/latex/auxhook/auxhook.sty" 1717570941 3935 57aa3c3e203a5c2effb4d2bd2efbc323 ""
@@ -378,10 +379,10 @@
   "c:/texlive/2024/texmf-dist/tex/platex/jsclasses/jslogo.sty" 1717572800 5585 8e4615c54073c390d14154b29cee89cb ""
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1717576215 5513072 9c1fc38a7d970efa00aeae6b397bfedd ""
   "c:/texlive/2024/texmf-var/web2c/luahbtex/lualatex.fmt" 1717576476 12254648 2dfc77acea0deb1f45672517968a00df ""
-  "物理学概論Ⅱ.aux" 1728289782 1155 0264dc75c0694f027d8463e63da11703 "lualatex"
-  "物理学概論Ⅱ.out" 1728289782 841 72a2377f9b22ee9b31588d16389e54af "lualatex"
-  "物理学概論Ⅱ.tex" 1728289772 7861 5b2e0aeb13be01ba9f74110bc1ffbc56 ""
-  "物理学概論Ⅱ.toc" 1728289782 665 f9f5a55a682cf5872a7cf8666e545c3c "lualatex"
+  "物理学概論Ⅱ.aux" 1728361219 1155 0264dc75c0694f027d8463e63da11703 "lualatex"
+  "物理学概論Ⅱ.out" 1728361219 841 72a2377f9b22ee9b31588d16389e54af "lualatex"
+  "物理学概論Ⅱ.tex" 1728361209 7895 c887e89820e74ae0bcf69bd0f5c9b6cd ""
+  "物理学概論Ⅱ.toc" 1728361219 665 f9f5a55a682cf5872a7cf8666e545c3c "lualatex"
   (generated)
   "物理学概論Ⅱ.aux"
   "物理学概論Ⅱ.log"
